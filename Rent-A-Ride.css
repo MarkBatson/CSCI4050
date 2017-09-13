@@ -1,0 +1,180 @@
+html {
+  font-family: "Avenir Next", sans-serif;
+}
+body {
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+a {
+    color: inherit;
+    outline: inherit;
+    text-decoration: inherit;
+}
+h3 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: "Avenir Next Medium";
+  font-size: 25px;
+}
+h1, h2 {
+  letter-spacing: 1px;
+}
+h4 {
+  font-family: "Avenir Next Medium";
+  font-size: 25px;
+}
+
+.logo {
+  background-color: #499cd0;
+  width: 100%;
+  position: fixed;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+  text-align: left;
+  font-style: italic;
+}
+
+.button {
+  text-align: center;
+  background-color: #499cd0;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  transition: .2s;
+  font-family: "Avenir Next Medium";
+}
+
+.button:hover {
+  background-color: #71b2da;
+}
+
+#log-in {
+  width: 80px;
+  position: fixed;
+  right: 0px;
+}
+
+#log-in:hover {
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+.car-image {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: 0px;
+  z-index: -2;
+}
+
+.statement {
+  z-index: -1;
+  padding-top: 150px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+#join-now {
+  width: 110px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#how-it-works {
+  margin-top: 400px;
+}
+
+table {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+th {
+  font-size: 25px;
+  font-family: "Avenir Next Medium";
+}
+
+td {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  width: 150px;
+}
+
+.how-it-works-title {
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.how-it-works-detail {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.car {
+  width: 250px;
+}
+
+.city-pic {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.log-in-page {
+  z-index: -1;
+  padding-top: 150px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.prompt-descriptor {
+  margin-right: 20px;
+}
+
+.prompt {
+  border: 1px solid black;
+  width: 300px;
+  height: 20px;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.footer {
+  height: 200px;
+}
