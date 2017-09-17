@@ -57,6 +57,7 @@ body {
     top:210px;
     width:200px;
     margin-top:20px;
+    display:block;
 }
 
 .vertical-menu a{
@@ -70,10 +71,69 @@ body {
     text-decoration: none;
     margin-bottom:5px;
     margin-left:10px;
-    overflow: scoll;
 }
 
 .vertical-menu a:hover{
     background-color:#499cd0;
     color:white;
 }
+
+.filter{
+   margin-left:110px;
+}
+
+#content{
+   overflow: auto;
+   height:100%;
+    }
+
+.column1{
+  width:170px;
+    float:left;
+    margin:20px;  
+}
+
+.column2{
+    width:170px;
+    float:left;
+    margin:20px;
+}
+
+.column2A{
+    width:500px;
+    float:left;
+    margin:50px;
+    text-align: center;
+    font-size: 30px;
+    border:1px black solid;
+}
+
+.vehicles img{
+    height:250px;
+    width:250px;
+}
+
+table{
+    border-spacing: 40px;
+}
+
+td{
+    border:5px #499cd0 solid;
+    border-radius:40px;
+}
+
+button{
+    background-color:#499cd0;
+    border-radius:10px;
+    height:50px;
+}
+
+td a:hover{
+   color:deeppink;
+}
+
+td a{
+    text-decoration: none;
+    color:black;
+}
+
