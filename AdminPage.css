@@ -137,3 +137,17 @@ td a{
     color:black;
 }
 
+.carinfo h1{
+    text-align: center;
+    
+}
+
+ul{
+    list-style: none;
+    font-family: "Avenir Next", sans-serif;
+    text-align:left;
+}
+
+
+
+
