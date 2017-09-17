@@ -34,6 +34,7 @@ h4 {
   margin: 0px;
   text-align: left;
   font-style: italic;
+
 }
 
 .button {
@@ -159,7 +160,7 @@ form {
   width: 230px;
 }
 
-#log-in-button {
+#generic-button {
   width: 90px;
   margin: auto;
   margin-top: 40px;
@@ -210,6 +211,49 @@ form {
 select {
   margin: 20px;
   width: 100px;
+}
+
+.drop-down-menu {
+  display: none;
+  position: fixed;
+  right: 10px;
+  width: 100px;
+  background-color: white;
+  color: #499cd0;
+  text-align: left;
+  margin-right: 20px;
+  border: solid 1px #499cd0;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.menu-header {
+  font-size: 20px;
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+#menu {
+  width: 80px;
+  position: fixed;
+  right: 0px;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+#menu:hover {
+  text-decoration: underline;
+  background-color: inherit;
 }
 
 .footer {
