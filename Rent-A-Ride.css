@@ -149,30 +149,67 @@ td {
   font-size: 30px;
 }
 
-.email {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+form {
+  text-align: right;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#log-in-form {
+  width: 230px;
+}
+
+#log-in-button {
+  width: 90px;
   margin: auto;
   margin-top: 40px;
 }
 
-.prompt-descriptor {
-  margin-right: 20px;
+#forgot-password {
+  width: 180px;
+  margin: auto;
+  margin-top: 10px;
 }
 
-.prompt {
-  border: 1px solid black;
+#register-button {
+  width: 70px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#register-form {
   width: 300px;
-  height: 20px;
 }
 
-.password {
+#credit-card-form {
+  width: 300px;
+}
+
+#email-form {
+  width: 200px;
+}
+
+.find-a-ride {
+  z-index: -1;
+  padding-top: 150px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.select-flex-box {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: auto;
-  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+select {
+  margin: 20px;
+  width: 100px;
 }
 
 .footer {
