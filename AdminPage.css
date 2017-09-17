@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.logo {
+  background-color: #499cd0;
+  font-family: "Avenir Next", sans-serif;
+  width: 100%;
+  color: white;
+  margin: 0px;
+  position:fixed;
+  top:0px;
+  font-style: italic;
+  letter-spacing: 1px;
+  height:120px;
+}
+
+.hlogo{
+    text-align:left;
+    font-size:40px;
+    margin-left:10px;
+}
+
+.plogo{
+    margin-right:30px;
+    text-align:right;
+    font-size:20px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.plogo a{
+    text-decoration: none;
+    color:white;
+}
+
+.plogo a:hover{
+    color:black;
+}
+
+.welcome{
+  background-color:lightblue;
+  font-family: "Avenir Next", sans-serif;
+  width: 100%;
+  color: black;
+  margin-top:120px;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size:10px;
+  height:50px;
+  text-align: center;
+}
+
+.vertical-menu{
+    top:210px;
+    width:200px;
+    margin-top:20px;
+}
+
+.vertical-menu a{
+    background-color:#eee;
+    color:black;
+    font-size:15px;
+    display:block;
+    padding:20px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:5px;
+    margin-left:10px;
+    overflow: scoll;
+}
+
+.vertical-menu a:hover{
+    background-color:#499cd0;
+    color:white;
+}
