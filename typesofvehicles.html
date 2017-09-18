@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vehicle Types</title>
+    <script src="types.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    </head>
+<body>
+    <div class="center">
+    
+     <table class="tablestyle1" id="sedan">
+           <tr id="row">
+               <td><figure><img src="images/sedan.png" width="130" height="40"/>
+                   <figcaption>Sedan</figcaption>
+                   </figure></td>
+                    <td>&nbsp;<button id="bttn1" class="btn1" value="delete" onclick="deleteType(this.id)">Delete</button></td>
+            </tr>
+           
+        </table>
+       
+        
+        <br>
+        
+        
+       <table class="tablestyle1" id="minivan">
+           <tr id="row">
+               <td><figure><img src="images/minivan.png" width="130" height="40"/>
+                   <figcaption>Minivan</figcaption>
+                   </figure></td>
+                 <td>&nbsp;<button id="bttn2" class="btn1" value="delete" onclick="deleteType(this.id)">Delete</button></td>
+            </tr>
+           
+        </table>
+        <br>
+        <div id="newType"></div>
+        <br>
+        <button class="btn1" value="add" style="margin-left: 120" onclick="addType()">Add New Vehicle</button>
+        
+    
+    </div>
+    
+    </body>
+</html>

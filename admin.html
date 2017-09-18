@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8">    
+    <title>Admin Home Page</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body onload="updateInfo()">
+    <div class="container-fluid">
+    <b style="color: deepskyblue; font-size: 18px"><h2>Personal Information:</h2></b><br>
+
+        <div>
+         
+    <dl class="dl-horizontal" style="font-size: 18px;">
+  <dt>Name:</dt>
+  <dd><label id="name">Admin</label></dd>
+  <dt>Phone No.:</dt>
+  <dd><label id="phoneNo">+1(123)-123-123</label></dd>
+  <dt>Email:</dt>
+  <dd><label id="email">admin@gmail.com </label></dd>
+</dl>
+         
+        </div>
+        <label class="labels">You have privileges to</label>
+        
+        <ul class="list-group">
+        
+                    <li class="list-group-item"><label id="addremoveVehicle">Add/Remove Vehicles</label></li>
+                    <li class="list-group-item"><label id="addremoveVehicleTypes">Add/Remove Vehicle Types</label></li>
+                    <li class="list-group-item"><label id="removeMembers">Remove Members</label></li>
+                    <li class="list-group-item"><label id="addremoveRentalLoc">Add/Remove Rental Locations</label></li>
+                    <li class="list-group-item"><label id="updateAdmin">Change admin privileges</label></li>
+            
+        </ul>
+      
+        
+        
+       
+        <div class="text-center">
+            <a href="AdminEdit.html"><button class="btn btn-primary" style="width: 50px;" value="Edit">Edit</button>
+            </a>
+        </div>
+    </div>
+   
+    </body>
+
+</html>

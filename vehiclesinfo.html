@@ -1,0 +1,71 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+<title>Vehicles Info</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+        <script src="vehicletype.js"></script>
+</head>
+<body>
+    
+    <div class="center">
+        <div class="container-fluid">
+             
+           
+        <table class="tablestyle" id="sedan">
+           <tr>
+               <td rowspan="3" style="background-color: white"><img src="images/sedan.png" width="130" height="40"></td>
+             
+               <td> <label>Description:</label></td>
+               <td> <label>A 4 door sedan with 5 seatbelts</label>   </td>
+               <td rowspan="3" style="background-color: white">&nbsp;<button class="btn1" value="Edit" onclick="changeVehicleDesc()">Edit</button></td>
+               <td rowspan="3" style="background-color: white">&nbsp;<button class="btn1" value="delete" onclick="deleteSedan()">Delete</button></td>
+            </tr>
+            <tr>
+            <td><label>Price:</label></td>
+                <td><label>$<span id="price">7</span>/hr and $<span id="perdayprice">80</span>/day</label></td>
+            </tr>
+            
+            <tr>
+            <td> <label>Good to Know:</label></td>
+                  <td>  <label>A perfect fit for all your needs.</label></td>
+            </tr>
+        </table>
+       
+        <br>
+        
+       <table class="tablestyle" id="minivan">
+           <tr>
+               <td rowspan="3" style="background-color: white"><img src="images/minivan.png" width="130" height="40"></td>
+             
+               <td> <label>Description:</label></td>
+               <td> <label>A minivan with 7-8 seating capacity </label>   </td>
+             <td rowspan="3" style="background-color: white">&nbsp;<button class="btn1" value="Edit" onclick="changeVehicleDescMini()">Edit</button></td>
+                <td rowspan="3" style="background-color: white">&nbsp;<button class="btn1" value="delete" onclick="deleteMinivan()">Delete</button></td>
+            </tr>
+            <tr>
+            <td> <label>Price:</label>    </td>
+              <td>  <label>$<span id="priceMini">10</span>/hr and $<span id="perdayprice">90</span>/day</label> </td>
+            </tr>
+            <tr>
+            <td> <label>Good to Know:</label></td>
+                  <td>  <label>Family friendly and you can get all the infotainment while on a trip.</label></td>
+            </tr>
+        </table>
+        <br>
+
+        <div id="newVehicle"></div>
+        <br>
+        <button class="btn1" value="add" style="margin-left: 260" onclick="addType()">Add New Vehicle</button>
+        
+    </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
