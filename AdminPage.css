@@ -39,6 +39,15 @@ body {
     color:black;
 }
 
+.hlogo a{
+    text-decoration: none;
+    color:white;
+}
+
+.hlogo a:hover{
+    color:black;
+}
+
 .welcome{
   background-color:lightblue;
   font-family: "Avenir Next", sans-serif;
@@ -147,6 +156,7 @@ ul{
     font-family: "Avenir Next", sans-serif;
     text-align:left;
 }
+
 
 
 
