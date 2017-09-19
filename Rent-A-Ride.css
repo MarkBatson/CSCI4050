@@ -159,6 +159,12 @@ form {
   margin-top: 10px;
 }
 
+#admin-login {
+  width: 160px;
+  margin: auto;
+  margin-top: 10px;
+}
+
 #register-button {
   width: 70px;
   margin: auto;
