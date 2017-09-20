@@ -3,11 +3,20 @@
     <meta charset="utf-8">
     <title>Rent A Ride</title>
     <link rel="stylesheet" href="Rent-A-Ride.css">
+    <link rel="stylesheet" href="stylesheet.css"/>
   </head>
   <body>
     <!--HEADER-->
-    <h1 class="logo"><a href="index.html">RENT A RIDE</a></h1>
-    <a href="userprof.html"><div id="log-in" class="button">John Doe</div></a>
+    <h1 class="logo"><a href="homepage.html">RENT A RIDE</a></h1>
+    <div id="menu" class="button">USER</div>
+    
+    <ul id="drop-down-menu" class="drop-down-menu">
+      <a href=""><div class="menu-header">USER</div></a>
+      <a href="userprof.html"><li>Profile</li></a>
+      <a href="feedback.html"><li>Feedback</li></a>
+      <a href="index.html"><li>Logout</li></a>
+    </ul>
+      
     <h2 class="log-in-page">Update Information</h2>
     <img class="profimg" src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg" id="profile-image1" class="img-circle img-responsive" width="200" height="200" align="center"> 
     <input id="profile-image-upload" class="hidden" type="file">
@@ -18,6 +27,7 @@
       Phone: <input type="tel" name="phone"><br>
     </form>
     <br>
-     <a href="userprof.html"><div id="update-button"class="button">Apply!</div></a>
-
+     <a href="userprof.html"><div id="update-button"class="btn">Apply!</div></a>
+     <div class="footer"></div>
+     <script src="Rent-A-Ride.js"></script>     
 </html>
