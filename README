@@ -1,4 +1,6 @@
 # CSCI4050
-This will be the page where we store our html files
-This is a tester line
-This is another line im adding 
+For our User Interface, we have implemented all static HTML pages that the User and an Administrator will need to be able to utilize all the functionalities of "Rent-A-Car". 
+
+The URL to see our UI is: cs.uga.edu/~garner/CSCI4050/UI/login.html
+
+The UI is only static, without the database, we do not have the ability to check login credentials and load pages with the necessary contect of inventory and reservations and locations. 
