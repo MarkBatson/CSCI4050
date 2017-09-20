@@ -3,6 +3,25 @@
     <head>
         <title>Locations</title>
         <link rel="stylesheet" href="AdminPage.css">
+    
+     <script>
+        function myFunction(){
+            var x = document.getElementById("myTable1");
+            x.deleteRow(0);
+            var x = document.getElementById("inventory");
+            var y = document.getElementById("button1");
+            x.removeChild(y);
+        }
+        
+         function myFunction2(){
+            var x = document.getElementById("myTable2");
+            x.deleteRow(0);
+            var x = document.getElementById("inventory");
+            var y = document.getElementById("button2");
+            x.removeChild(y);
+        }
+    </script>
+        
     </head>
     
     <body>
@@ -32,24 +51,23 @@
     
     <div class="column2">
         <div class="content">
-            <table class="vehicles">
-              <tr>
-                  <td><a href= "LocationInfoPage.html"><p style="text-align: center">[Location]</p></a><img src="images/Atlanta.jpg"><a href="LocationPage.html"><p style="text-align: center">delete</p></a></td>
-                  
-                  <td><a href= "LocationInfoPage.html"><p style="text-align: center">[Location]</p></a><img src="images/Atlanta.jpg"><a href="LocationPage.html"><p style="text-align: center">delete</p></a></td>
-                </tr>
-                
+            <div class="column2">
+        <div class="content" id="inventory">
+           
+            <button id= "button1" onclick="myFunction()">Delete</button>
+            <table class="vehicles" id="myTable1">
                 <tr>
-                   <td><a href= "LocationInfoPage.html"><p style="text-align: center">[Location]</p></a><img src="images/Atlanta.jpg"><a href="LocationPage.html"><p style="text-align: center">delete</p></a></td>
-                    
-                    <td><a href= "LocationInfoPage.html"><p style="text-align: center">[Location]</p></a><img src="images/Atlanta.jpg"><a href="LocationPage.html"><p style="text-align: center">delete</p></a></td>
-                    </tr>
-                <tr>
-                    <td><a href= "AddALocation.html"><p style="font-size: 40px; text-align: center; font-weight: bolder;">Add a center <br>+</p></a></td>
+                    <td id = "delete1"><a href= "LocationInfoPage.html"><p style="text-align: center">[car title]</p></a><img src="images/Atlanta.jpg"></td>
                 </tr>
-                
-              
             </table>
+            
+            <button id= "button2" onclick="myFunction2()">Delete</button>
+            <table class="vehicles" id="myTable2">
+                <tr>
+                    <td id = "delete1"><a href= "LocationInfoPage.html"><p style="text-align: center">[car title]</p></a><img src="images/Atlanta.jpg"></td>
+                </tr>
+            </table>
+            
         </div> 
     </div>
         
