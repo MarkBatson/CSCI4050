@@ -34,7 +34,6 @@ h4 {
   margin: 0px;
   text-align: left;
   font-style: italic;
-
 }
 
 .button {
@@ -90,23 +89,7 @@ h4 {
 
 #how-it-works {
   margin-top: 400px;
-}
-
-table {
-  margin: auto;
-  width: 80%;
-  text-align: center;
-}
-
-th {
-  font-size: 25px;
-  font-family: "Avenir Next Medium";
-}
-
-td {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .icon {
@@ -114,22 +97,26 @@ td {
 }
 
 .how-it-works-title {
-  margin-top: 0px;
-  margin-left: 30px;
-  margin-right: 30px;
+  font-size: 25px;
+  font-family: "Avenir Next Medium";
+  width: 200px;
+  margin: 10px;
+  margin-top: 30px;
 }
 
 .how-it-works-detail {
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 200px;
+  margin: 10px;
 }
 
 .flex-box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin: auto;
+  width: 80%;
+  padding-bottom: 50px;
 }
 
 .car {
@@ -160,7 +147,7 @@ form {
   width: 230px;
 }
 
-#generic-button {
+#generic-button, #find-button {
   width: 90px;
   margin: auto;
   margin-top: 40px;
@@ -168,6 +155,12 @@ form {
 
 #forgot-password {
   width: 180px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#admin-login {
+  width: 160px;
   margin: auto;
   margin-top: 10px;
 }
@@ -192,7 +185,7 @@ form {
 
 .find-a-ride {
   z-index: -1;
-  padding-top: 150px;
+  padding-top: 50px;
   width: 60%;
   margin: auto;
   text-align: center;
@@ -237,7 +230,7 @@ li:hover {
   font-size: 20px;
   text-align: right;
   padding-top: 8px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   padding-right: 10px;
 }
 
@@ -256,6 +249,167 @@ li:hover {
   background-color: inherit;
 }
 
+.manage-ride, .feedback-title{
+  z-index: -1;
+  padding-top: 150px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.rented-car {
+  text-align: left;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#pick-up-button, #cancel-button ,#rent-button{
+  width: 80px;
+  margin-top: 0px;
+  margin-right: 12px;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.feedback-select {
+  width: 200px;
+}
+
+.feedback-form {
+  width:500px;
+  margin: auto;
+}
+
+#find-button {
+  margin-bottom: 50px;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+#car-search {
+  display: none;
+}
+
+.rental-option {
+  border: solid 1px #499cd0;
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.rental-description {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.rental-image {
+  width: 250px;
+}
+
 .footer {
   height: 200px;
+}
+
+/*Media Queries to make the website more responsive*/
+@media (max-width: 1300px) {
+  #how-it-works {
+    margin-top: 300px;
+  }
+
+  .how-it-works-title {
+    width: 300px;
+  }
+
+  .how-it-works-detail {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1125px) {
+  .city-pic {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .statement {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .statement {
+    font-size: 25px;
+    /*font-size: 18px;*/
+  }
+
+  #how-it-works {
+    margin-top: 220px;
+  }
+
+  .how-it-works-title {
+    width: 200px;
+  }
+
+  .how-it-works-detail {
+    width: 200px;
+  }
+}
+
+@media (max-width: 745px) {
+  .city-pic {
+    width: 130px;
+  }
+}
+
+@media (max-width: 675px) {
+  .logo {
+    font-size: 25px;
+  }
+
+  #log-in, #menu {
+    font-size: 15px;
+  }
+
+  .car-image {
+    position: inherit;
+  }
+
+  .statement {
+    /*font-size: 18*/
+    padding-top: 10px;
+    color: black;
+  }
+
+  #how-it-works {
+    margin-top: 100px;
+  }
+
+  .icon {
+    width: 125px;
+  }
+
+  .how-it-works-title {
+    width: 150px;
+  }
+
+  .how-it-works-detail {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .car {
+    width: 170px;
+  }
 }
