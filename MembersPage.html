@@ -1,8 +1,26 @@
 <!doctype html>
 <html>
     <head>
-        <title>Members Page</title>
+        <title>Manage Content Page</title>
         <link rel="stylesheet" href="AdminPage.css">
+    
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTable1");
+            x.deleteRow(0);
+            var x = document.getElementById("inventory");
+            var y = document.getElementById("button1");
+            x.removeChild(y);
+        }
+        
+         function myFunction2(){
+            var x = document.getElementById("myTable2");
+            x.deleteRow(0);
+            var x = document.getElementById("inventory");
+            var y = document.getElementById("button2");
+            x.removeChild(y);
+        }
+    </script>
     </head>
     
     <body>
@@ -13,15 +31,6 @@
         
         <div class="welcome">
           <h1>Members</h1>  
-        </div>
-        
-        <div class="filter">
-         <form class="filter" action="">
-             <br>
-       First Name: <input type="text" name="email" style="height:25px">
-      Last Last: <input type="password" name="password" style="height:25px">
-      <input type="submit">
-    </form>
         </div>
     
 <div id="content">
@@ -39,22 +48,29 @@
             
     
     <div class="column2">
-        <div class="content">
-            <table class="vehicles">
-              <tr>
-                  <td><a href= "MemberInfoPage.html"><p style="text-align: center">[name]</p></a><img src="images/loginImage.png"><a href="MembersPage.html"><p style="text-align: center">delete</p></a></td>
-                  
-                  <td><a href= "MemberInfoPage.html"><p style="text-align: center">[name]</p></a><img src="images/loginImage.png"><a href="MembersPage.html"><p style="text-align: center">delete</p></a></td>
-                
+        <div class="content" id="inventory">
+           
+            <button id= "button1" onclick="myFunction()">Delete</button>
+            <table class="vehicles" id="myTable1">
                 <tr>
-                    <td><a href= "MemberInfoPage.html"><p style="text-align: center">[name]</p></a><img src="images/loginImage.png"><a href="MembersPage.html"><p style="text-align: center">delete</p></a></td>
-                    
-                   <td><a href= "MemberInfoPage.html"><p style="text-align: center">[name]</p></a><img src="images/loginImage.png"><a href="MembersPage.html"><p style="text-align: center">delete</p></a></td>
-                    </tr>
-               
-                
-              
+                    <td id = "delete1"><a href= "CarPage.html"><p style="text-align: center">[Member Name]</p></a><img src="images/loginImage.png"></td>
+                </tr>
             </table>
+            
+            <button id= "button2" onclick="myFunction2()">Delete</button>
+            <table class="vehicles" id="myTable2">
+                <tr>
+                    <td id = "delete1"><a href= "CarPage.html"><p style="text-align: center">[Member Name]</p></a><img src="images/loginImage.png"></td>
+                </tr>
+            </table>
+            
+            
+            
+            
+            
+            
+            
+            
         </div> 
     </div>
         
